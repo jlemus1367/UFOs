@@ -11,6 +11,18 @@ In the following project, we used HTML, CSS, and JavaScript to create a dynamic 
 
 ## Results
 When users initially engage with the webpage, the homepage presents them with a table with all the UFO data in the JSON object. Scrolling through the data can be overwhelming, so we created filters with the JavaScript D3 library to filter the data by date, city, state, county, or shape. The user can filter the data with one search field or a combination of search fields. 
+#### Initial Homepage:
+<img src="images/initial.png">
+
+#### Using One Filter:
+The user can choose how many filters they want to apply. The example below shows just one filter applied in the date search field.
+
+<img src="images/date.png">
+
+#### Using Multiple Filters
+The user can mix and match the filters they want to apply. The example below shows the date, city, and shape search fields applied to filter the data in the table. The user is able to get more specific results for their analysis by applying multiple filters. 
+
+<img src="images/city_date_shape.png">
 
 After the user deletes the search input and clicks anywhere on the table, the table resets. By using a combination of search fields, the user can pinpoint events of interest and draw their own conclusions. 
 
